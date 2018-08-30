@@ -1,0 +1,14 @@
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Pug-Template for component
+
+	@name			hello-world
+	@project 	client
+	@author 	Christian Blaschke <mail@platdesign.de>
+	@since		August 30th 2018, 2:47:32 pm
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+div(:class="$css.component")
+	span(v-if="!titleSuffix") Loading ...
+	span(v-else) {{ title }}
+

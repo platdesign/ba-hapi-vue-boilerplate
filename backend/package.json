@@ -1,0 +1,33 @@
+{
+  "name": "hapi-boilerplate",
+  "private": true,
+  "description": "Platdesign.de Hapi-Boilerplate",
+  "author": [
+    {
+      "name": "Christian Blaschke",
+      "email": "mail@platdesign.de",
+      "url": "https://github.com/platdesign"
+    }
+  ],
+  "version": "0.0.0",
+  "dependencies": {
+    "boom": "^7.2.0",
+    "config": "^1.30.0",
+    "glob": "^7.1.2",
+    "good": "^8.1.1",
+    "good-console": "^7.1.0",
+    "good-squeeze": "^5.1.0",
+    "hapi": "^17.4.0",
+    "joi": "^13.3.0"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon .",
+    "start": "node .",
+    "test": "NODE_ENV=test mocha"
+  },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.4"
+  }
+}
